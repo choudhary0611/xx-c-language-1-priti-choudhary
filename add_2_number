@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+    
+    // Prompt the user for input
+    printf("Enter two integers: ");
+    
+    // Read and store the two numbers
+    // The & symbol is required to point to the variable's memory address
+    scanf("%d %d", &num1, &num2);
+    
+    // Perform the addition
+    sum = num1 + num2;
+    
+    // Display the result
+    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+    
+    return 0;
+}
