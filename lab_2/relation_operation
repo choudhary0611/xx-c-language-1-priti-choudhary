@@ -1,52 +1,39 @@
 relational operators
-
 #include <stdio.h>
 
-void check_relationship(int a, int b) {
+int main()
+{
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
     printf("a == b : %d\n", a == b);
     printf("a != b : %d\n", a != b);
     printf("a > b  : %d\n", a > b);
     printf("a < b  : %d\n", a < b);
     printf("a >= b : %d\n", a >= b);
     printf("a <= b : %d\n", a <= b);
-}
 
-int main() {
-    int x = 10;
-    int y = 5;
-    
-    check_relationship(x, y);
-    
     return 0;
 }
- 
+
 
 Bitwise operator
-
 #include <stdio.h>
 
-int main() {
-    unsigned int a = 60;
-    unsigned int b = 13;
-    int result;
+int main()
+{
+    int a, b;
 
-    result = a & b;
-    printf("%d\n", result);
+    scanf("%d %d", &a, &b);
 
-    result = a | b;
-    printf("%d\n", result);
-
-    result = a ^ b;
-    printf("%d\n", result);
-
-    result = ~a;
-    printf("%d\n", result);
-
-    result = a << 2;
-    printf("%d\n", result);
-
-    result = a >> 2;
-    printf("%d\n", result);
+    printf("a & b = %d\n", a & b);
+    printf("a | b = %d\n", a | b);
+    printf("a ^ b = %d\n", a ^ b);
+    printf("~a = %d\n", ~a);
+    printf("a << 1 = %d\n", a << 1);
+    printf("a >> 1 = %d\n", a >> 1);
 
     return 0;
 }
+  
