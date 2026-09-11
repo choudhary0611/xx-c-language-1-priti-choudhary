@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+    int number1 = 50;
+    int number2 = 20;
+    int result;
+
+    result = number1 - number2;
+
+    printf("%d",result);
+    return 0;
+}
