@@ -1,29 +1,52 @@
+relational operators
+
+#include <stdio.h>
+
+void check_relationship(int a, int b) {
+    printf("a == b : %d\n", a == b);
+    printf("a != b : %d\n", a != b);
+    printf("a > b  : %d\n", a > b);
+    printf("a < b  : %d\n", a < b);
+    printf("a >= b : %d\n", a >= b);
+    printf("a <= b : %d\n", a <= b);
+}
+
+int main() {
+    int x = 10;
+    int y = 5;
+    
+    check_relationship(x, y);
+    
+    return 0;
+}
+ 
+
+Bitwise operator
+
 #include <stdio.h>
 
 int main() {
-    // We pick two numbers to compare
-    int a = 12;
-    int b = 5;
+    unsigned int a = 60;
+    unsigned int b = 13;
+    int result;
 
-    printf("--- Relational Operations for a = %d and b = %d ---\n\n", a, b);
+    result = a & b;
+    printf("%d\n", result);
 
-    // 1. Greater Than
-    printf("Is a > b?  Result: %d\n", a > b);
+    result = a | b;
+    printf("%d\n", result);
 
-    // 2. Less Than
-    printf("Is a < b?  Result: %d\n", a < b);
+    result = a ^ b;
+    printf("%d\n", result);
 
-    // 3. Greater Than or Equal To
-    printf("Is a >= b? Result: %d\n", a >= b);
+    result = ~a;
+    printf("%d\n", result);
 
-    // 4. Less Than or Equal To
-    printf("Is a <= b? Result: %d\n", a <= b);
+    result = a << 2;
+    printf("%d\n", result);
 
-    // 5. Equal To (Notice we use two equal signs!)
-    printf("Is a == b? Result: %d\n", a == b);
-
-    // 6. Not Equal To
-    printf("Is a != b? Result: %d\n", a != b);
+    result = a >> 2;
+    printf("%d\n", result);
 
     return 0;
 }
