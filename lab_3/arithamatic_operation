@@ -1,0 +1,52 @@
+Addition
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    sum = num1 + num2;
+
+    printf("The sum is: %d\n", sum);
+
+    return 0;
+}
+
+
+Subtraction
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, result;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    result = num1 - num2;
+
+    printf("Result: %d\n", result);
+
+    return 0;
+}
+
+multiplication
+
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+
+    printf("enter two integers: ");
+    scanf("%d %d", &a,&b);
+
+    c = a * b;
+
+    printf(" %d\n",c);
+
+    return 0;
+}
+
