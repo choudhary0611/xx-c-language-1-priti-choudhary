@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    // We pick two numbers to compare
+    int a = 12;
+    int b = 5;
+
+    printf("--- Relational Operations for a = %d and b = %d ---\n\n", a, b);
+
+    // 1. Greater Than
+    printf("Is a > b?  Result: %d\n", a > b);
+
+    // 2. Less Than
+    printf("Is a < b?  Result: %d\n", a < b);
+
+    // 3. Greater Than or Equal To
+    printf("Is a >= b? Result: %d\n", a >= b);
+
+    // 4. Less Than or Equal To
+    printf("Is a <= b? Result: %d\n", a <= b);
+
+    // 5. Equal To (Notice we use two equal signs!)
+    printf("Is a == b? Result: %d\n", a == b);
+
+    // 6. Not Equal To
+    printf("Is a != b? Result: %d\n", a != b);
+
+    return 0;
+}
