@@ -10,3 +10,41 @@ int main() {
 
     return 0;
 }
+
+error detection
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+    printf("%d", A);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+    printf("%d", a);
+    return 0
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d", a);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int 1number = 10;
+    printf("%d", 1number);
+    return 0;
+}
