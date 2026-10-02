@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a=10;
+    int b=20;
+    int c;
+    printf("value of a is %d and value of b is %d",a,b);
+    c=a+b;
+    a=c-a;
+    b=c-b;
+    printf("value of a is %d amd value of b is %d\n",a,b);
+    return 0;
+}
