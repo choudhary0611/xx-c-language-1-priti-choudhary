@@ -3,7 +3,7 @@
 int main()
 {
     int a, b;
-
+    printf("My name is Priti choudhary");
     scanf("%d %d", &a, &b);
 
     printf("a & b = %d\n", a & b);
