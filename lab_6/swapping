@@ -4,7 +4,8 @@ int main()
     int a=10;
     int b=20;
     int c;
-    printf("value of a is %d and value of b is %d",a,b);
+     printf("My name is Priti choudhary.\n");
+     printf("value of a is %d and value of b is %d",a,b);
     c=a+b;
     a=c-a;
     b=c-b;
