@@ -2,6 +2,7 @@
 int main()
 {
     int n, n1=0,n2=1,n3,i;
+     printf("My name is Priti choudhary.\n");
     scanf("%d",&n);
     for(i=1;i<=n;++i)
         {
