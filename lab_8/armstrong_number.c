@@ -3,7 +3,7 @@
 int main() {
     int num, originalNum, remainder, n = 0, result = 0;
 
-   printf("Name : priti choudhary");
+   printf("Name : priti choudhary\n");
    printf("Enter an integer: ");
     scanf("%d", &num);
 
