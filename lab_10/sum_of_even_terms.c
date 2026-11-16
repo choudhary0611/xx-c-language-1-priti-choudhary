@@ -4,7 +4,7 @@ int main() {
     int n, i;
     int t1 = 0, t2 = 1, nextTerm;
     int evenSum = 0;
-    printf("my name is Priti choudhar.\n");
+    printf("my name is Priti choudhary.\n");
 
     printf("Enter the number of terms (n): ");
     scanf("%d", &n);
