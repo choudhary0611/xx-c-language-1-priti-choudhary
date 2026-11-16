@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   printf("I am Rifa khan\n");
+   printf("I am priti choudhary\n");
    int a=10, b=20;
    int c;
    printf ("Value of a is %d and value of b is %d\n", a,b);
